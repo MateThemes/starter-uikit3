@@ -91,6 +91,11 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Useful Links
 
-##### Social Media
+Nothing to provide yet.
+
+## Social Media
 
 Coming Soon
+
+## Big Thanks
+to Themesberg helping get started with their awesome Swipe Theme
