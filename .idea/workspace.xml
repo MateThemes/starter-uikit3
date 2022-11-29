@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e7f5f1d-f9e4-4147-9be8-1f525a8ff24e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.temp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.temp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.temp/sign-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/.temp/sign-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.temp/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/.temp/sign-up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/swipe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/_head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/_head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/_navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/_navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/_scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/_scripts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,7 @@
       <updated>1669664311911</updated>
       <workItem from="1669664314792" duration="619000" />
       <workItem from="1669665072151" duration="69000" />
-      <workItem from="1669725425036" duration="2432000" />
+      <workItem from="1669725425036" duration="2913000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Release">
       <created>1669726311346</created>
@@ -72,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669728038652</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed errors">
+      <created>1669728485050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669728485050</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +82,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Release" />
     <MESSAGE value="Added and changed assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added and changed assets" />
+    <MESSAGE value="Fixed errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed errors" />
   </component>
 </project>
