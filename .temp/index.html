@@ -47,285 +47,208 @@
 </head>
 
 <body>
-    <div class="tm-header-mobile uk-hidden@l">
-    
-    
-    <div uk-sticky cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
-        
+    <!-- Mobile navigation header -->
+<div class="tm-header-mobile uk-hidden@l">
+    <div data-uk-sticky cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
         <div class="uk-navbar-container">
-            
             <div class="uk-container uk-container-expand">
-                <nav class="uk-navbar" uk-navbar="{&quot;container&quot;:&quot;.tm-header-mobile &gt; [uk-sticky]&quot;}">
-                    
+                <nav class="uk-navbar" data-uk-navbar="{&quot;container&quot;:&quot;.tm-header-mobile &gt; [uk-sticky]&quot;}">
                     <div class="uk-navbar-left">
-                        
-                        <a href="https://demo.yootheme.com/joomla/themes/design-escapes/" aria-label="Back to home" class="uk-logo uk-navbar-item">
-                            <img alt="design escapes" loading="eager" width="100" height="30" uk-svg src="/demo/design-escapes/images/logo-mobile.svg"></a>
-                    
-                    
+                        <a href="/" aria-label="Back to home" class="uk-logo uk-navbar-item">
+                            <img src="/assets/img/starter-uikit3-logo.svg" alt="design escapes" width="100" loading="eager" data-uk-svg>
+                        </a>
                     </div>
-                    
-                    
                     <div class="uk-navbar-right">
-                        
-                        
-                        
-                        
-                        
-                        <a class="uk-navbar-toggle" id="module-tm-4" href="#search-tm-4-modal" uk-search-icon uk-toggle></a>
-                        
-                        <div id="search-tm-4-modal" class="uk-modal-full" uk-modal="container: true">
-                            <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" uk-height-viewport>
-                                <button class="uk-modal-close-full uk-close-large" type="button" uk-close uk-toggle="cls: uk-modal-close-full uk-close-large uk-modal-close-default; mode: media; media: @s"></button>
+                        <a class="uk-navbar-toggle" id="module-tm-4" href="#search-tm-4-modal" data-uk-search-icon data-uk-toggle></a>
+                        <div id="search-tm-4-modal" class="uk-modal-full" data-uk-modal="container: true">
+                            <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" data-uk-height-viewport>
+                                <button class="uk-modal-close-full uk-close-large" type="button" data-uk-close data-uk-toggle="cls: uk-modal-close-full uk-close-large uk-modal-close-default; mode: media; media: @s"></button>
                                 <div class="uk-search uk-search-large">
-                                    <form id="search-tm-4" action="/joomla/themes/design-escapes/component/finder/search" method="get" role="search" class="uk-search js-finder-searchform uk-search-large"><input name="q" class="uk-search-input uk-text-center" placeholder="Search" required type="search" autofocus></form>            </div>
+                                    <form id="search-tm-4" action="/joomla/themes/design-escapes/component/finder/search" method="get" role="search" class="uk-search js-finder-searchform uk-search-large"><input name="q" class="uk-search-input uk-text-center" placeholder="Search" required type="search" autofocus></form>
+                                </div>
                             </div>
                         </div>
-                        
-                        
-                        
-                        
-                        
-                        
-                        <a uk-toggle aria-label="Open Menu" href="#tm-dialog-mobile" class="uk-navbar-toggle uk-navbar-toggle-animate">
-                            
-                            
-                            <div uk-navbar-toggle-icon></div>
-                        
-                        
+                        <a data-uk-toggle aria-label="Open Menu" href="#tm-dialog-mobile" class="uk-navbar-toggle uk-navbar-toggle-animate">
+                            <div data-uk-navbar-toggle-icon></div>
                         </a>
-                    
                     </div>
-                
                 </nav>
             </div>
-        
         </div>
-    
     </div>
-    
-    
-    
-    
-    
-    
-    
-    <div id="tm-dialog-mobile" class="uk-dropbar uk-dropbar-left" uk-drop="{&quot;clsDrop&quot;:&quot;uk-dropbar&quot;,&quot;flip&quot;:&quot;false&quot;,&quot;container&quot;:&quot;.tm-header-mobile&quot;,&quot;target-y&quot;:&quot;.tm-header-mobile .uk-navbar-container&quot;,&quot;mode&quot;:&quot;click&quot;,&quot;target-x&quot;:&quot;.tm-header-mobile .uk-navbar-container&quot;,&quot;stretch&quot;:true,&quot;bgScroll&quot;:&quot;false&quot;,&quot;animation&quot;:&quot;slide-left&quot;,&quot;animateOut&quot;:true,&quot;duration&quot;:300,&quot;toggle&quot;:&quot;false&quot;}">
-        
+    <div id="tm-dialog-mobile" class="uk-dropbar uk-dropbar-left" data-uk-drop="{&quot;clsDrop&quot;:&quot;uk-dropbar&quot;,&quot;flip&quot;:&quot;false&quot;,&quot;container&quot;:&quot;.tm-header-mobile&quot;,&quot;target-y&quot;:&quot;.tm-header-mobile .uk-navbar-container&quot;,&quot;mode&quot;:&quot;click&quot;,&quot;target-x&quot;:&quot;.tm-header-mobile .uk-navbar-container&quot;,&quot;stretch&quot;:true,&quot;bgScroll&quot;:&quot;false&quot;,&quot;animation&quot;:&quot;slide-left&quot;,&quot;animateOut&quot;:true,&quot;duration&quot;:300,&quot;toggle&quot;:&quot;false&quot;}">
         <div class="tm-height-min-1-1 uk-flex uk-flex-column">
-            
             <div class="uk-margin-auto-bottom">
-                
-                <div class="uk-grid uk-child-width-1-1" uk-grid>    <div>
-                    <div class="uk-panel" id="module-menu-dialog-mobile">
-                        
-                        
-                        
-                        <ul class="uk-nav uk-nav-primary uk-nav-divider uk-nav-accordion" uk-nav="targets: &gt; .js-accordion">
-                            
-                            <li class="item-159 js-accordion uk-parent"><a href> Accommodations <span uk-nav-parent-icon></span></a>
-                                <ul class="uk-nav-sub">
-                                    
-                                    <li class="item-173"><a href="/joomla/themes/design-escapes/accommodations/norway"> Norway</a></li>
-                                    <li class="item-174"><a href="/joomla/themes/design-escapes/accommodations/great-britain"> Great Britain</a></li>
-                                    <li class="item-175"><a href="/joomla/themes/design-escapes/accommodations/spain"> Spain</a></li>
-                                    <li class="item-176"><a href="/joomla/themes/design-escapes/accommodations/germany"> Germany</a></li>
-                                    <li class="item-177"><a href="/joomla/themes/design-escapes/accommodations/italy"> Italy</a></li>
-                                    <li class="item-178"><a href="/joomla/themes/design-escapes/accommodations/france"> France</a></li>
-                                    <li class="item-189"><a href="/joomla/themes/design-escapes/accommodations"> View All</a></li></ul></li>
-                            <li class="item-160 js-accordion uk-parent"><a href> Discover <span uk-nav-parent-icon></span></a>
-                                <ul class="uk-nav-sub">
-                                    
-                                    <li class="item-179"><a href="/joomla/themes/design-escapes/accommodations/cozy-places"> Cozy Places</a></li>
-                                    <li class="item-180"><a href="/joomla/themes/design-escapes/accommodations/exclusive-architecture"> Exclusive Architecture</a></li>
-                                    <li class="item-181"><a href="/joomla/themes/design-escapes/accommodations/family-vacation"> Family Vacation</a></li>
-                                    <li class="item-182"><a href="/joomla/themes/design-escapes/accommodations/in-the-mountains"> In the Mountains</a></li>
-                                    <li class="item-183"><a href="/joomla/themes/design-escapes/accommodations/in-the-woods"> In the Woods</a></li>
-                                    <li class="item-184"><a href="/joomla/themes/design-escapes/accommodations/near-the-beach"> Near the Beach</a></li>
-                                    <li class="item-185"><a href="/joomla/themes/design-escapes/accommodations/pets-welcome"> Pets Welcome</a></li>
-                                    <li class="item-186"><a href="/joomla/themes/design-escapes/accommodations/tiny-homes"> Tiny Homes</a></li>
-                                    <li class="item-187"><a href="/joomla/themes/design-escapes/accommodations/urban-chic"> Urban Chic</a></li>
-                                    <li class="item-188"><a href="/joomla/themes/design-escapes/accommodations/winter-escapes"> Winter Escapes</a></li>
-                                    <li class="item-190"><a href="/joomla/themes/design-escapes/discover"> View All</a></li></ul></li>
-                            <li class="item-161"><a href="/joomla/themes/design-escapes/map"> Map</a></li>
-                            <li class="item-162"><a href="/joomla/themes/design-escapes/about"> About</a></li>
-                            <li class="item-163"><a href="/joomla/themes/design-escapes/blog"> Blog</a></li></ul>
-                    
-                    </div>
-                </div>    <div>
-                    <div class="uk-panel" id="module-93">
-                        
-                        
-                        
-                        <div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin" uk-grid>
-                            <div class="uk-width-1-1">
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                <h3 class="uk-h6 uk-text-primary uk-margin-remove-bottom">        Design Escapes    </h3>
-                                <div class="uk-margin-small">
-                                    
-                                    
-                                    
-                                    <ul class="uk-margin-remove-bottom uk-nav uk-nav-default">                                <li class="el-item ">
-                                        <a class="el-link" href="/joomla/themes/design-escapes/about">
-                                            
-                                            
-                                            Become a Host
-                                        
-                                        </a></li>
-                                        <li class="el-item ">
-                                            <a class="el-link" href="/joomla/themes/design-escapes/about#faq">
-                                                
-                                                
-                                                Customer Service
-                                            
-                                            </a></li>
-                                        <li class="el-item ">
-                                            <a class="el-link" href="mailto:info@example.com">
-                                                
-                                                
-                                                Contact Us
-                                            
-                                            </a></li>
+                <div class="uk-grid uk-child-width-1-1" data-uk-grid>
+                    <div>
+                        <div class="uk-panel" id="module-menu-dialog-mobile">
+                            <ul class="uk-nav uk-nav-primary uk-nav-divider uk-nav-accordion" data-uk-nav="targets: &gt; .js-accordion">
+                                <li class="item-159 js-accordion uk-parent">
+                                    <a href> Accommodations <span data-uk-nav-parent-icon></span></a>
+                                    <ul class="uk-nav-sub">
+                                        <li class="item-173">
+                                            <a href="/joomla/themes/design-escapes/accommodations/norway"> Norway</a>
+                                        </li>
+                                        <li class="item-174">
+                                            <a href="/joomla/themes/design-escapes/accommodations/great-britain"> Great Britain</a>
+                                        </li>
+                                        <li class="item-175">
+                                            <a href="/joomla/themes/design-escapes/accommodations/spain"> Spain</a>
+                                        </li>
+                                        <li class="item-176">
+                                            <a href="/joomla/themes/design-escapes/accommodations/germany"> Germany</a>
+                                        </li>
+                                        <li class="item-177">
+                                            <a href="/joomla/themes/design-escapes/accommodations/italy"> Italy</a>
+                                        </li>
+                                        <li class="item-178">
+                                            <a href="/joomla/themes/design-escapes/accommodations/france"> France</a>
+                                        </li>
+                                        <li class="item-189">
+                                            <a href="/joomla/themes/design-escapes/accommodations"> View All</a>
+                                        </li>
                                     </ul>
-                                
-                                
-                                
+                                </li>
+                                <li class="item-160 js-accordion uk-parent">
+                                    <a href> Discover <span data-uk-nav-parent-icon></span></a>
+                                    <ul class="uk-nav-sub">
+                                        <li class="item-179">
+                                            <a href="/joomla/themes/design-escapes/accommodations/cozy-places"> Cozy Places</a>
+                                        </li>
+                                        <li class="item-180">
+                                            <a href="/joomla/themes/design-escapes/accommodations/exclusive-architecture"> Exclusive Architecture</a>
+                                        </li>
+                                        <li class="item-181">
+                                            <a href="/joomla/themes/design-escapes/accommodations/family-vacation"> Family Vacation</a>
+                                        </li>
+                                        <li class="item-182">
+                                            <a href="/joomla/themes/design-escapes/accommodations/in-the-mountains"> In the Mountains</a>
+                                        </li>
+                                        <li class="item-183">
+                                            <a href="/joomla/themes/design-escapes/accommodations/in-the-woods"> In the Woods</a>
+                                        </li>
+                                        <li class="item-184">
+                                            <a href="/joomla/themes/design-escapes/accommodations/near-the-beach"> Near the Beach</a>
+                                        </li>
+                                        <li class="item-185">
+                                            <a href="/joomla/themes/design-escapes/accommodations/pets-welcome"> Pets Welcome</a>
+                                        </li>
+                                        <li class="item-186">
+                                            <a href="/joomla/themes/design-escapes/accommodations/tiny-homes"> Tiny Homes</a>
+                                        </li>
+                                        <li class="item-187">
+                                            <a href="/joomla/themes/design-escapes/accommodations/urban-chic"> Urban Chic</a>
+                                        </li>
+                                        <li class="item-188">
+                                            <a href="/joomla/themes/design-escapes/accommodations/winter-escapes"> Winter Escapes</a>
+                                        </li>
+                                        <li class="item-190">
+                                            <a href="/joomla/themes/design-escapes/discover"> View All</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="item-161">
+                                    <a href="/joomla/themes/design-escapes/map"> Map</a>
+                                </li>
+                                <li class="item-162">
+                                    <a href="/joomla/themes/design-escapes/about"> About</a>
+                                </li>
+                                <li class="item-163">
+                                    <a href="/joomla/themes/design-escapes/blog"> Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-panel">
+                            <div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin" data-uk-grid>
+                                <div class="uk-width-1-1">
+                                    <h3 class="uk-h6 uk-text-primary uk-margin-remove-bottom">Starter UIKit 3</h3>
+                                    <div class="uk-margin-small">
+                                        <ul class="uk-margin-remove-bottom uk-nav uk-nav-default">
+                                            <li class="el-item ">
+                                                <a class="el-link" href="/joomla/themes/design-escapes/about">
+                                                    Become a Host
+                                                </a>
+                                            </li>
+                                            <li class="el-item ">
+                                                <a class="el-link" href="/joomla/themes/design-escapes/about#faq">
+                                                    Customer Service
+                                                </a>
+                                            </li>
+                                            <li class="el-item ">
+                                                <a class="el-link" href="mailto:info@example.com">
+                                                    Contact Us
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            
-                            
-                            
-                            
                             </div>
                         </div>
                     </div>
-                </div>    <div>
-                    <div class="uk-panel" id="module-tm-5">
-                        
-                        
-                        <ul class="uk-flex-inline uk-flex-middle uk-flex-nowrap uk-grid-small" uk-grid>
-                            <li>
-                                <a href="https://twitter.com/yootheme" class="uk-icon-link uk-preserve-width" target="_blank"  uk-icon="icon: twitter; width: 18;"></a>
-                            </li>
-                            <li>
-                                <a href="https://facebook.com/yootheme" class="uk-icon-link uk-preserve-width" target="_blank"  uk-icon="icon: facebook; width: 18;"></a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/" class="uk-icon-link uk-preserve-width" target="_blank"  uk-icon="icon: instagram; width: 18;"></a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/channel/UCScfGdEgRCOh9YJdpGu82eQ" class="uk-icon-link uk-preserve-width" target="_blank"  uk-icon="icon: youtube; width: 18;"></a>
-                            </li>
-                        </ul>
+                    <div>
+                        <div class="uk-panel">
+                            <ul class="uk-flex-inline uk-flex-middle uk-flex-nowrap uk-grid-small" data-uk-grid>
+                                <li>
+                                    <a href="https://twitter.com/" class="uk-icon-link uk-preserve-width" target="_blank" data-uk-icon="icon: twitter; width: 18;"></a>
+                                </li>
+                                <li>
+                                    <a href="https://facebook.com/" class="uk-icon-link uk-preserve-width" target="_blank" data-uk-icon="icon: facebook; width: 18;"></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/" class="uk-icon-link uk-preserve-width" target="_blank" data-uk-icon="icon: instagram; width: 18;"></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/" class="uk-icon-link uk-preserve-width" target="_blank" data-uk-icon="icon: youtube; width: 18;"></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div></div>
+                </div>
             </div>
-        
-        
         </div>
-    
     </div>
-
-
 </div>
+<!-- End mobile navigation header -->
 
-
-
-
-
-<div class="tm-header uk-visible@l" uk-header>
-    
-    
-    
-    <div uk-sticky media="@l" cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
-        
+<!-- Navigation header for larger screens -->
+<div class="tm-header uk-visible@l" data-uk-header>
+    <div data-uk-sticky media="@l" cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
         <div class="uk-navbar-container">
-            
             <div class="uk-container uk-container-expand">
-                <nav class="uk-navbar" uk-navbar="{&quot;align&quot;:&quot;center&quot;,&quot;container&quot;:&quot;.tm-header &gt; [uk-sticky]&quot;,&quot;boundary&quot;:&quot;.tm-header .uk-navbar-container&quot;,&quot;target-x&quot;:&quot;.tm-header .uk-navbar&quot;,&quot;dropbar&quot;:true,&quot;target-y&quot;:&quot;.tm-header .uk-navbar-container&quot;,&quot;dropbar-anchor&quot;:&quot;.tm-header .uk-navbar-container&quot;}">
-                    
+                <nav class="uk-navbar" data-uk-navbar="{&quot;align&quot;:&quot;center&quot;,&quot;container&quot;:&quot;.tm-header &gt; [uk-sticky]&quot;,&quot;boundary&quot;:&quot;.tm-header .uk-navbar-container&quot;,&quot;target-x&quot;:&quot;.tm-header .uk-navbar&quot;,&quot;dropbar&quot;:true,&quot;target-y&quot;:&quot;.tm-header .uk-navbar-container&quot;,&quot;dropbar-anchor&quot;:&quot;.tm-header .uk-navbar-container&quot;}">
                     <div class="uk-navbar-left">
-                        
-                        <a href="https://demo.yootheme.com/joomla/themes/design-escapes/" aria-label="Back to home" class="uk-logo uk-navbar-item">
-                            <img alt="design escapes" loading="eager" width="180" height="31" uk-svg src="/demo/design-escapes/images/logo.svg"></a>
-                    
-                    
-                    
+                        <a href="/" aria-label="Back to home" class="uk-logo uk-navbar-item">
+                            <img src="
+                            /assets/img/starter-uikit3-logo.svg" alt="Starter UIkit 3" width="180" loading="eager" data-uk-svg>
+                        </a>
                     </div>
-                    
                     <div class="uk-navbar-center">
-                        
-                        
-                        
                         <ul class="uk-navbar-nav">
-                            
-                            <li class="item-139 uk-parent"><a href="/joomla/themes/design-escapes/accommodations"> Accommodations</a>
-                                <div class="uk-navbar-dropdown uk-navbar-dropdown-dropbar-large" style="width: 1400px;" uk-drop="{&quot;clsDrop&quot;:&quot;uk-navbar-dropdown&quot;,&quot;flip&quot;:&quot;false&quot;,&quot;container&quot;:&quot;.tm-header &gt; [uk-sticky]&quot;,&quot;target-x&quot;:&quot;.tm-header .uk-navbar&quot;,&quot;target-y&quot;:&quot;.tm-header .uk-navbar-container&quot;,&quot;pos&quot;:&quot;bottom-center&quot;}"><div class="tm-grid-expand uk-grid-column-medium uk-grid-row-small uk-grid-margin-small" uk-grid>
+                            <li class="item-139 uk-parent">
+                                <a href="/joomla/themes/design-escapes/accommodations"> Accommodations</a>
+                                <div class="uk-navbar-dropdown uk-navbar-dropdown-dropbar-large" style="width: 1400px;" data-uk-drop="{&quot;clsDrop&quot;:&quot;uk-navbar-dropdown&quot;,&quot;flip&quot;:&quot;false&quot;,&quot;container&quot;:&quot;.tm-header &gt; [uk-sticky]&quot;,&quot;target-x&quot;:&quot;.tm-header .uk-navbar&quot;,&quot;target-y&quot;:&quot;.tm-header .uk-navbar-container&quot;,&quot;pos&quot;:&quot;bottom-center&quot;}"><div class="tm-grid-expand uk-grid-column-medium uk-grid-row-small uk-grid-margin-small" data-uk-grid>
                                     <div class="uk-width-1-1@s uk-width-2-5@m">
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
                                         <div class="uk-panel uk-margin-remove-first-child uk-margin uk-width-large">
-                                            
-                                            
-                                            
-                                            
-                                            
-                                            <div class="el-title uk-h2 uk-margin-top uk-margin-remove-bottom">                        Accommodations for <br>Everyone                    </div>
-                                            
-                                            
-                                            
-                                            
+                                            <div class="el-title uk-h2 uk-margin-top uk-margin-remove-bottom">Accommodations for <br>Everyone</div>
                                             <div class="el-content uk-panel uk-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</div>
-                                            
-                                            <div class="uk-margin-medium-top"><a href="/joomla/themes/design-escapes/accommodations" class="el-link uk-button uk-button-primary">View All</a></div>
-                                        
-                                        
-                                        
+                                            <div class="uk-margin-medium-top">
+                                                <a href="/joomla/themes/design-escapes/accommodations" class="el-link uk-button uk-button-primary">View All</a>
+                                            </div>
                                         </div>
-                                    
-                                    
-                                    
-                                    
                                     </div>
-                                    
                                     <div class="uk-width-1-3@s uk-width-1-5@m">
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        <div class="uk-h6 uk-text-primary">        Countries    </div>
+                                        <div class="uk-h6 uk-text-primary">Countries</div>
                                         <div>
-                                            
-                                            
-                                            
-                                            <ul class="uk-margin-remove-bottom uk-nav uk-nav-default uk-nav-divider">                                <li class="el-item ">
-                                                <a class="el-link" href="/joomla/themes/design-escapes/accommodations/norway">
-                                                    
-                                                    
-                                                    Norway
-                                                
-                                                </a></li>
-                                                <li class="el-item ">
-                                                    <a class="el-link" href="/joomla/themes/design-escapes/accommodations/great-britain">
-                                                        
-                                                        
-                                                        Great Britain
-                                                    
-                                                    </a></li>
-                                                <li class="el-item ">
+                                            <ul class="uk-margin-remove-bottom uk-nav uk-nav-default uk-nav-divider">
+                                                <li class="el-item">
+                                                    <a class="el-link" href="/joomla/themes/design-escapes/accommodations/norway">Norway</a>
+                                                </li>
+                                                <li class="el-item">
+                                                    <a class="el-link" href="/joomla/themes/design-escapes/accommodations/great-britain">Great Britain</a>
+                                                </li>
+                                                <li class="el-item">
                                                     <a class="el-link" href="/joomla/themes/design-escapes/accommodations/spain">
                                                         
                                                         
@@ -540,15 +463,8 @@
         </div>
     
     </div>
-
-
-
-
-
-
-
-
 </div>
+<!-- End navigation header for larger screens -->
 
     <main>
         <!-- Hero -->
